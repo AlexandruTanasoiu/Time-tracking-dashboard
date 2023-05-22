@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Project Frontend Mentor | Time tracking dashboard</title>
+ </head>
+
+<body>
+
+  <main class="container">
+    <div class="container_profile">
+      <div>
+        <img src="./images/image-jeremy.png" alt="profile_img">
+        <p>Report for</p>
+        <h1>Jeremy Robson</h1>
+      </div>
+      <div>
+        <ul class="list_style">
+          <li><a href="#" id="daily">Daily</a></li>
+          <li><a href="#" id="weekly">Weekly</a></li>
+          <li><a href="#" id="monthly">Monthly</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container_item flex_column ">
+      <div class="item_inside1">
+        <div class="item_img"><img class="item_icon" src="./images/icon-work.svg" alt="work"></div>
+        <div class="item_content">
+          <h3>Work</h3>
+          <img src="./images/icon-ellipsis.svg" alt="twree_points">
+          <h2><span id="current_Work"></span>hrs</h2>
+          <p>Last Week - <span id="last_Work"></span>hrs</p>
+        </div>
+      </div>
+      <div class="item_inside2">
+        <div class="item_img"><img class="item_icon" src="./images/icon-exercise.svg" alt="exercise"></div>
+        <div class="item_content">
+          <h3>Exercise</h3>
+          <img src="./images/icon-ellipsis.svg" alt="twree_points">
+          <h2><span id="current_Exercise"></span>hrs</h2>
+          <p>Last Week - <span id="last_Exercise"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="container_item flex_column">
+      <div class="item_inside3">
+        <div class="item_img"><img class="item_icon" src="./images/icon-play.svg" alt="play"></div>
+        <div class="item_content">
+          <h3>Play</h3>
+          <img src="./images/icon-ellipsis.svg" alt="twree_points">
+          <h2><span id="current_Play"></span>hrs</h2>
+          <p>Last Week - <span id="last_Play"></span>hrs</p>
+        </div>
+      </div>
+      <div class="item_inside4">
+        <div class="item_img"><img class="item_icon" src="./images/icon-social.svg" alt="social"></div>
+        <div class="item_content">
+          <h3>Social</h3>
+          <img src="./images/icon-ellipsis.svg" alt="twree_points">
+          <h2><span id="current_Social"></span>hrs</h2>
+          <p>Last Week - <span id="last_Social"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="container_item flex_column">
+      <div class="item_inside5">
+        <div class="item_img"><img class="item_icon" src="./images/icon-study.svg" alt="study"></div>
+        <div class="item_content">
+          <h3>Study</h3>
+          <img src="./images/icon-ellipsis.svg" alt="twree_points">
+          <h2><span id="current_Study"></span>hrs</h2>
+          <p>Last Week - <span id="last_Study"></span>hrs</p>
+        </div>
+      </div>
+      <div class="item_inside6">
+        <div class="item_img"><img class="item_icon" src="./images/icon-self-care.svg" alt="self-care"></div>
+        <div class="item_content">
+          <h3>Self Care</h3>
+          <img src="./images/icon-ellipsis.svg" alt="twree_points">
+          <h2><span id="current_Self Care"></span>hrs</h2>
+          <p>Last Week - <span id="last_Self Care"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Alexandru Tanasoiu</a>.
+    </div>
+  </footer>
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
